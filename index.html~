@@ -1,1 +1,49 @@
-hello
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(220,220,220,1) ;
+  padding: 50px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+
+<h1>display: grid</h1>
+
+<p>Use display: grid; to make a block-level grid container:</p>
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  </div>
+
+</body>
+</html>
+
+
+
